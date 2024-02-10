@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70747a;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #39a6c6;
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.logo {
+    width: 70px;
+    margin-top: 10px;
+}
+
+.navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display:inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #ccc;
+}
+
+.default-btn {
+    padding: 15px 20px;
+    background-color: #de9c69;
+    border-radius: 5px;
+}
+
+.navbar-items .default-btn:hover {
+    background-color: #d28549;
+    color: #fff;
+}
+
+.main-banner {
+    background-image: url("../img/limpeza.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1,
+.main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #1e1e1e 3px 2px 3px;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
+
+.services-container {
+    padding: 5rem 0;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-solid {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-building-shield,
+.fa-stopwatch,
+.fa-star
+ {
+    color: #39a6c6;
+}
+
+
+.services-container h3 {
+    margin-bottom: 25px;
+}
+
+.services-container p {
+    line-height: 24px;
+}
+
+.pricing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2 {
+    font-size: 36px;
+}
+
+.pricing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan {
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul {
+    padding: 0;
+}
+
+.plan li {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ccc;
+    color: #333;
+}
+
+.plan .plan-icon1,
+.plan .plan-icon2,
+.plan .plan-icon3,
+.plan .plan-icon4
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    background-color: #333;
+    text-align: center;
+    line-height: 150px;
+    margin: 0 auto -50px;
+    position: relative;
+}
+
+.plan .plan-icon1 {
+    color: #c46832;
+}
+.plan .plan-icon2 {
+    color: #c8c8c8;
+}
+.plan .plan-icon3 {
+    color: #f3d00b;
+}
+.plan .plan-icon4 {
+    color: #11eaed;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #39a6c6;
+    padding: 50px 0;
+}
+
+.plan .plan-btn {
+    background-color: #39a6c6;
+    color:#fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.recommended .plan-name,
+.recommended .plan-btn{
+    background-color: #de9c69;
+}
+
+.search-container{
+    background-color: #39a6c6;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.search-container h2 {
+    color:#fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.search-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.search-container select {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border-style: none;
+    color:#333
+}
+
+.search-container input[type="submit"] {
+    background-color: #de9c69;
+    padding: 15px 30px;
+    color:#fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.search-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #de9c69;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 100px
+}
+
+/* responsividade */
+
+@media (max-width:1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* tablet 900px */
+@media (max-width: 900px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    
+    .main-banner p {
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+
+    .search-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* celular */
+@media (max-width: 576px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .navbar-container{
+        padding-left: 20px;
+        padding-right: 20px ;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+
+    }
+
+    .plans-container {
+        flex-direction: column;
+        padding: 0 2rem;
+        width: 100%;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-container h2 {
+        font-size: 26px;
+    }
+
+    .search-container select {
+        width: 100%;
+    }
+}
